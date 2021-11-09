@@ -3,7 +3,7 @@
 
 module system_1(
     output reg A,
-    input wire B1, B2, B3, C
+    input wire [1:0] B1, B2, B3, C
 );
     always @(B1, B2, B3, C) begin
         if (C == 2'b01)
@@ -15,8 +15,4 @@ module system_1(
       	else
             A = 0;
     end
-
 endmodule
-
-
-

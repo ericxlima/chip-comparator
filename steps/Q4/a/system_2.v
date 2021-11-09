@@ -3,10 +3,9 @@
 
 module system_2(
     output reg A,
-  input wire [1:0] B1, B2, B3, C
+    input wire [1:0] B1, B2, B3, C
 );
-
-  always @(B1, B2, B3, C) begin
+    always @(B1, B2, B3, C) begin
         case (C)
             2'b01 : A = B1;
             2'b10 : A = B2;
