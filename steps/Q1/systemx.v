@@ -1,10 +1,9 @@
 // Write your modules here!
-module circuit2(
-		input wire A, C,
-		inout wire C);
-  	
-  	wire B;
-  
+module systemx(
+		input wire A,
+		inout wire C,
+		output wire C);
+
   	assign #3 B = A && C;
 	assign #2 C = !B;
 endmodule
