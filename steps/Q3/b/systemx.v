@@ -1,4 +1,4 @@
-module system_1(
+module systemx(
     output reg F,
     input wire A, B, C, D
 );
