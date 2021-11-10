@@ -1,0 +1,1 @@
+Atenção: Cuidado ao arquivo da compilação system_tb.vcd. Fazer isto é por sua máquina em risco!

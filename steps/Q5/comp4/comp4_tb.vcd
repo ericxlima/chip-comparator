@@ -1,0 +1,95 @@
+$date
+	Tue Nov  9 22:05:03 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module comp4_tb $end
+$var wire 1 ! lt_TB $end
+$var wire 1 " gt_TB $end
+$var wire 1 # eq_TB $end
+$var reg 4 $ A_TB [3:0] $end
+$var reg 4 % B_TB [3:0] $end
+$scope module UUT $end
+$var wire 2 & A [1:0] $end
+$var wire 1 # A_eq_B $end
+$var wire 1 " A_gt_B $end
+$var wire 1 ! A_lt_B $end
+$var wire 2 ' B [1:0] $end
+$var wire 1 ( tmp1 $end
+$var wire 1 ) tmp2 $end
+$var wire 1 * tmp3 $end
+$var wire 1 + tmp4 $end
+$var wire 1 , tmp5 $end
+$var wire 1 - tmp6 $end
+$var wire 1 . tmp7 $end
+$var wire 1 / tmp8 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0/
+0.
+0-
+0,
+0+
+0*
+1)
+1(
+b0 '
+b0 &
+b0 %
+b0 $
+1#
+0"
+0!
+$end
+#10000
+0!
+0"
+0/
+0*
+0-
+0.
+b11 '
+b11 &
+b1111 %
+b1111 $
+#20000
+1"
+1/
+0#
+0)
+b10 '
+b10 %
+#30000
+1-
+1.
+0(
+b0 '
+b1100 %
+#40000
+0"
+1#
+1(
+1)
+0-
+0.
+0/
+b0 &
+b0 $
+#50000
+1"
+0#
+1/
+0)
+0-
+0.
+b10 '
+b11 &
+b1110 %
+b111 $
